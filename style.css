@@ -1,0 +1,39 @@
+body{
+    background: black;
+    color: #DDDDDD;
+    font-family: courier new;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: normal;
+  }
+  #grid{
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vh;
+    width:40vw;
+  }
+  
+  #grid,tr,td{
+    border:1px solid white;
+    background: #999999;
+    min-width: 40px;
+    height: 40px;
+    text-align: center;
+  }
+  
+  #grid,TR,TD.clicked{
+      background: #333333;
+  }
+  
+  #grid,TR,TD.mine{
+      background: rgb(102, 63, 175);
+  }
+  
+  BUTTON{
+    margin: 12px;
+  }
